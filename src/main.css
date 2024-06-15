@@ -31,12 +31,12 @@ main {
 
 .pokemonCard {
   display: flex;
-  width: 600px;
   padding: 2%;
 }
 
 .pokemonCardImg {
   width: 100%;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .pokemonDetails {
@@ -94,10 +94,7 @@ main {
 .Card {
   background-color: #777;
   color: white;
-}
-
-.Card img{
-  filter: drop-shadow(5px 5px 5px #222);
+  padding-bottom: 30px;
 }
 
 .home img{
